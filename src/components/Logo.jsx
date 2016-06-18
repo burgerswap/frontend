@@ -3,9 +3,9 @@ import React, {Component} from 'react';
 class Logo extends Component {
   render() {
     return (
-			<div className="center">
+			<div className="brand">
 				<img src="/media/logo.png"/>
-				<h3>HotPotatoe</h3>
+				<div className="lead">HotPotatoe</div>
 			</div>
     )
   }

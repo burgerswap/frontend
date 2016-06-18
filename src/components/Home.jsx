@@ -5,17 +5,13 @@ class Home extends Component {
     return (
      <section className>
         <div className = "col-sm-8 col-sm-offset-2">
-        <h1 className="center"> Hello and Welcome to BurgerSwap </h1>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Pellentesque fermentum dignissim velit pretium hendrerit.
-        Integer consectetur vulputate quam et gravida. Vestibulum facilisis velit porta,
-        congue elit sit amet, viverra dui. Quisque ut pharetra urna, a tempor odio.
-        Praesent rhoncus ex quam, a varius quam congue et. Aliquam erat volutpat.
-        Nulla facilisi. Aliquam erat volutpat. Etiam sollicitudin,
-        quam at porttitor vestibulum, justo ante auctor nisl, vitae aliquet justo purus ac velit.
-        Fusce quam neque, dapibus quis erat ac, feugiat feugiat tellus.
-        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        </p>
+        <h1 className="center"> Share, don't waste. </h1>
+        <h4>Bought too much? Have left over food? We believe you could share it instead of throwing it in the bin.</h4>
+        <ul>
+          <li>4,000,000 tonnes of food each year is wasted in Australia. Thats $8 billion.</li>
+          <li>>20% of fruits and vegetables are rejected</li>
+          <li>Best-before is different to use-by</li>
+        </ul>
           <div className="row demo-tiles">
             <div className="col-xs-6">
               <div className="tile">

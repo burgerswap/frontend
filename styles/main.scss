@@ -1,3 +1,54 @@
 .center {
   text-align: center;
 }
+.left {
+  text-align: left;
+}
+ul {
+  text-align: left;
+}
+.brand {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.brand h1 {
+  margin: 0 0 40px 0;
+}
+.nearby-food {
+  margin-top: 2em;
+  background-color: #fff;
+  text-align: left;
+}
+.nearby-food h6 {
+  margin: 0;
+}
+.button-holder {
+  text-align: right;
+}
+
+.tile.image {
+  background-image: url('/media/bananas.png');
+  background-size: cover;
+  width: 160px;
+  height: 120px;
+  position: relative;
+  display: inline-block;
+  margin: 1em 1em;
+}
+
+.tile.image div.yes {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 2em;
+  color: #16A085;
+}
+
+.tile.image div.no {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 2em;
+  color: #C0392B;
+}

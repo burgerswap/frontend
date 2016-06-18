@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Hero from './Hero.jsx';
+import Home from './Home.jsx';
 import Navbar from './Navbar.jsx';
 
 
@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div>
         <Navbar />
-        <Hero />
+        <Home />
       </div>
     )
   }

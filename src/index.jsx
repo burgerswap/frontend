@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createStore } from 'redux';
-import { Provider } from 'react-redux';
 import Router, { Route } from 'react-router';
+import App from './components/App.jsx';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+injectTapEventPlugin();
 
 require('../styles/main.scss');
 
 ReactDOM.render(
-    <h1> Hello World </h1>,  document.getElementById('app')
+    <App />,
+  document.getElementById('app')
 );

@@ -51,7 +51,6 @@
     "history": "^1.17.0",
     "immutable": "^3.7.6",
     "lodash": "^4.3.0",
-    "material-ui": "^0.15.0",
     "nightwatch": "^0.8.16",
     "pure-render-decorator": "^0.2.0",
     "react": "^0.14.7",

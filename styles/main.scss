@@ -1,8 +1,21 @@
+.ib {
+  display: inline-block;
+}
 .center {
   text-align: center;
 }
 .left {
   text-align: left;
+}
+.yesses {
+  padding-top: 100px;
+  color: #27AE60;
+  font-size: 1.4em;
+}
+.nos {
+  padding-top: 100px;
+  color: #C0392B;
+  font-size: 1.4em;
 }
 ul {
   text-align: left;
@@ -16,7 +29,7 @@ ul {
   margin: 0 0 40px 0;
 }
 .nearby-food {
-  margin-top: 2em;
+  margin: 2em 0;
   background-color: #fff;
   text-align: left;
   position: relative;
@@ -32,7 +45,7 @@ ul {
 .nearby-food button {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 20px;
 }
 
 .tile.image {

@@ -1,14 +1,16 @@
 import React, {Component} from 'react';
+import Logo from './Logo.jsx';
 import Home from './Home.jsx';
-import Navbar from './Navbar.jsx';
-
+import Locate from './Locate.jsx';
+import Foods from './Foods.jsx';
+import Nearby from './Nearby.jsx';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Navbar />
-        <Home />
+      <div className="app-container center">
+        <Logo />
+        <Foods />
       </div>
     )
   }

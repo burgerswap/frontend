@@ -12,6 +12,7 @@ class Home extends Component {
           <li>>20% of fruits and vegetables are rejected</li>
           <li>Best-before is different to use-by</li>
         </ul>
+
           <div className="row demo-tiles">
             <div className="col-xs-6">
               <div className="tile">
@@ -26,6 +27,7 @@ class Home extends Component {
                 <a className="btn btn-primary btn-large btn-block" href="http://designmodo.com/flat">I'd like some food please</a>
               </div>
             </div>
+
           </div>
         </div>
      </section>

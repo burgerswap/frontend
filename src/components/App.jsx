@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="app-container center">
         <Logo />
-        <Foods />
+        <Home />
       </div>
     )
   }

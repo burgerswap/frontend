@@ -19,12 +19,20 @@ ul {
   margin-top: 2em;
   background-color: #fff;
   text-align: left;
+  position: relative;
 }
 .nearby-food h6 {
   margin: 0;
 }
-.button-holder {
-  text-align: right;
+.nearby-food .description {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+}
+.nearby-food button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .tile.image {
